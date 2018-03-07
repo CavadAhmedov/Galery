@@ -1,0 +1,111 @@
+body{
+	margin:0;
+	padding:0;
+}
+.container {
+	position: absolute;
+	height:150%;
+	width:100%;
+	background: #111111;
+}
+.header{
+	width:100%;
+	height: 15%;
+	text-align: center;
+	background-color: #111111;
+	color:white;
+	margin-top:7%;
+}
+.header h3{
+	letter-spacing: 10px;
+	font-size:10px;
+}
+.header span{
+	color:yellow;
+}
+.all{
+	width:80%;
+	height: 70%;
+	background-color: #222222;
+	margin-left:10%;
+	transition: width 1s , height 1s;
+}
+.images{
+	background-size: cover;
+	background-repeat: no-repeat;
+	display:inline-block;
+	box-sizing:border-box;
+	height: 25%;
+	width:20%;
+	border:3px white solid;
+	margin:2%;
+
+	
+}
+.foto1{
+	
+	background-position: center;
+	background-size: border;
+	background-image: url(../img/1.jpg);
+	
+}
+.foto2{
+	background-position: center;
+	background-size: border;
+	background-image: url(../img/2.jpg);
+}
+.foto3{
+	background-position: center;
+	background-size: border;
+	background-image: url(../img/3.jpg);
+}
+.foto4{
+	background-position: center;
+	background-size: border;
+	background-image: url(../img/4.jpg);
+}
+.foto5{
+	background-position: center;
+	background-size: border;
+	background-image: url(../img/5.jpg);
+}
+.foto6{
+	background-position: center;
+	background-size: border;
+	background-image: url(../img/6.jpg);
+}
+.foto7{
+
+	background-position: center;
+	background-size: border;
+	background-image: url(../img/7.jpg);
+}
+.foto8{
+	background-position: center;
+	background-size: border;
+	background-image: url(../img/8.jpg);
+}
+.foto9{
+	background-position: center;
+	background-size: border;
+	background-image: url(../img/9.jpg);
+}
+.foto10{
+	background-position: center;
+	background-size: border;
+	background-image: url(../img/10.jpg);
+}
+.foto11{
+	background-position: center;
+	background-size: border;
+	background-image: url(../img/11.jpg);
+}
+.foto12{
+	background-position: center;
+	background-size: border;
+	background-image: url(../img/12.jpg);
+}
+.images:hover{
+	transform: scale(2 ,2);
+}
+
